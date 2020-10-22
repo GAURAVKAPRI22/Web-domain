@@ -1,0 +1,20 @@
+<htmnl>
+<head>
+<script type ="text/javascript">
+function _fun_area()
+{
+	var b=parseInt(document.getElementById("txtb").value);
+	var h=parseInt(document.getElementById("txth").value);
+	area=1/2*(h*b);
+	document.getElementById("txtarea").value=area;
+}
+</script>
+</head>
+<body>
+b<input type="text" id="txtb" value=""> <br><br>
+h<input type="text" id="txth" value=""> <br><br>
+area<input type="text" id="txtarea" value=""> <br><br>	
+
+<input type="button" name="btnclick" onclick="_fun_area()" value="area"> 
+</body>
+</html>

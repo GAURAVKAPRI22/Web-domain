@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+	function check_multiple()
+	{
+		
+		var num;
+		num = document.getElementById("num").value;
+		if( num % 3 == 0 || num % 7 == 0 )
+		{
+			alert(num+" is multipal of 3 and 7");  
+		}
+		else
+		{
+			alert(num+" is not multipal of 3 and 7");  
+		}
+	}
+</script>
+</head>
+<body>
+<input type="text" id="num"></input>
+<button onclick="check_multiple()">Check</button>
+</body>
+</html>
